@@ -2,11 +2,19 @@ import React from 'react';
 
 // TODO: Update this component to utilize the variable passed to it!
 
-export const Greeting = ({ name }) => {
+export function Greeting({ name }) {
 
     return (
-        <div>
-            <h1>Hello, World!</h1>
+        <div className='greating'>
+            <h1>Hello, {name}!</h1>
         </div>
-    )
+    );
+}
+export function Button({ name }) {
+
+    return (
+        <div className='button'>
+            <h1>Hello, {Button}!</h1>
+        </div>
+    );
 }
