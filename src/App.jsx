@@ -1,18 +1,12 @@
-
-import {Button, Greeting} from './components/greetings'
-
+import { Greeting } from './components/greetings'
+import Button from './components/buttons'
 
 function App() {
-
   return (
     <>
       <Greeting name='Brett' />
       <Greeting name="Jane" />
       <Greeting name="Steve" />
-    </>
-  )
-  return (
-    <>
       <Button name='Brett' />
       <Button name="Jane" />
       <Button name="Steve" />
