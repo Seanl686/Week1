@@ -7,9 +7,6 @@ function App() {
       <Greeting name='Brett' />
       <Greeting name="Jane" />
       <Greeting name="Steve" />
-      <Button name='Brett' />
-      <Button name="Jane" />
-      <Button name="Steve" />
     </>
   )
 }

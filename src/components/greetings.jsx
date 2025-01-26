@@ -5,16 +5,9 @@ import React from 'react';
 export function Greeting({ name }) {
 
     return (
-        <div className='greating'>
+        <div className='greeting'>
             <h1>Hello, {name}!</h1>
-        </div>
-    );
-}
-export function Button({ name }) {
-
-    return (
-        <div className='button'>
-            <h1>Hello, {Button}!</h1>
+            <button onClick={() => alert(`Hello World!`)}>Yo, {name}!</button>
         </div>
     );
 }
