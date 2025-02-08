@@ -2,7 +2,7 @@ import React from 'react';
 
 function Button({ name }) {
   return (
-    <button>{name}</button>
+    <button onClick={() => alert(`Hello, ${name}!`)}>Yo, {name}!</button>
   );
 }
 
